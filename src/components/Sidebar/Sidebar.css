@@ -1,0 +1,19 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s linear;
+  transform: translateX(100%);
+  z-index: 5;
+}
+
+.show {
+  transform: translateX(0);
+}
+
+a {
+  font-size: 1.5rem;
+}

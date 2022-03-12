@@ -1,0 +1,28 @@
+.header__section {
+  padding: 4.8rem 0 5rem 0;
+}
+
+.header__hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header__text {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.header__description {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}

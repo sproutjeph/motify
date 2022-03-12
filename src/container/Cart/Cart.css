@@ -1,0 +1,30 @@
+.cart {
+  padding: 3rem;
+  overflow-y: scroll;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  background: #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.cart__total {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cart__total span {
+  font-size: 1.5rem;
+}
+
+.price {
+  color: green;
+}
+.small {
+  color: #222;
+}
